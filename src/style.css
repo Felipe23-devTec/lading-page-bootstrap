@@ -1,3 +1,6 @@
+.card-largura{
+    width: 18rem;
+}
 .imagem-carrosel{
     object-fit: cover;
     object-position: 0 80%;
@@ -6,4 +9,22 @@
 .title-carrosel{
     font-family: 'Pacifico', cursive;
     font-size: 35px;
+}
+.format-title{
+    font-family: 'Pacifico', cursive;
+    color: darkred !important;
+}
+.btn-card{
+    background-color: darkred !important;
+    color: white !important;
+}
+.btn-card:hover{
+    background-color: #ccc;
+}
+.borda-cor-card{
+    border-color: darkred !important;
+}
+.imagem-card{
+    object-fit: cover;
+    height: 200px;
 }
