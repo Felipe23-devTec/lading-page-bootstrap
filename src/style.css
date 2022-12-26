@@ -1,5 +1,5 @@
 .card-largura{
-    width: 18rem;
+    max-width: 18rem !important;
 }
 .imagem-carrosel{
     object-fit: cover;
@@ -19,7 +19,8 @@
     color: white !important;
 }
 .btn-card:hover{
-    background-color: #ccc;
+    background-color: #ccc !important;
+    color:black !important;
 }
 .borda-cor-card{
     border-color: darkred !important;
@@ -27,4 +28,7 @@
 .imagem-card{
     object-fit: cover;
     height: 200px;
+}
+.container-card{
+    background-color: rgb(242, 242, 242);
 }
